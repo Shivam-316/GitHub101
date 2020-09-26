@@ -3,7 +3,7 @@ Preprocessing Audio Dataset :- https://www.kaggle.com/shivam316/preprocessing-pa
 
 Class Imbalance & MFCC'S :- https://www.kaggle.com/shivam316/handel-imbalance-creating-spectrogram-part-2
 
-Feature Extraction :- https://www.kaggle.com/shivam316/part-3-feature-extraction
+Feature Extraction :- https://www.kaggle.com/shivam316/part-3-feature-extraction-modeling
 
 Day 1 -> Processed Audio files.
 
@@ -25,3 +25,8 @@ Day 5 -> So what i planned for today was to **concatenate features in depth dime
           **less overfitting**.
           Thing with Audio feature extraction is that there are many **parameters** to tune for **feature extraction** as well, this was a basic approch
           hoping to improve on this, main take away was that i am in **right direction**.
+
+Day 6 -> Not happy with yesterday's performance of **83%** , i thought that combining features in **dept-dimension** and using **1D-CNN**, is not paying
+          respect to **spectral features and patterns** , so i decided to use **Functional API** and different **CNN-Models** for each main feature and then combining 
+          them with a **Dense Network**, worked quite well  and gave **accuracy->100% + loss->0.0029** on train data and **accuracy->92% + loss->0.312**
+          on validation set, model is clearly **overfitting** , but is much better than **Day 5**, can be improved by regularizaton, **Nyto!**
