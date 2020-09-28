@@ -30,3 +30,5 @@ Day 6 -> Not happy with yesterday's performance of **83%** , i thought that comb
           respect to **spectral features and patterns** , so i decided to use **Functional API** and different **CNN-Models** for each main feature and then combining 
           them with a **Dense Network**, worked quite well  and gave **accuracy->100% + loss->0.0029** on train data and **accuracy->92% + loss->0.312**
           on validation set, model is clearly **overfitting** , but is much better than **Day 5**, can be improved by regularizaton, **Nyto!**
+
+Day 7 -> Cheat day ;)
