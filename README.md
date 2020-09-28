@@ -32,3 +32,8 @@ Day 6 -> Not happy with yesterday's performance of **83%** , i thought that comb
           on validation set, model is clearly **overfitting** , but is much better than **Day 5**, can be improved by regularizaton, **Nyto!**
 
 Day 7 -> Cheat day ;)
+
+Day 8 -> **Regularized** the model and got **97%** acc on **train** data and **95%** on **validation** data, i believe this model can achieve upto **97%-98%** acc
+          on **validation** data, if i **remove** the **classes with less samples**, but i want the model to predict **as many diseases as possible**,
+          Now i m confused to work MORE on this or not, idk!! :( 
+          **Do Upvote if u find this series of notebooks usefull and comment if any doubt or suggestion**
