@@ -1,9 +1,18 @@
 # GitHub101
+**Major work**
+
 Preprocessing Audio Dataset :- https://www.kaggle.com/shivam316/preprocessing-part-1 
 
 Class Imbalance & MFCC'S :- https://www.kaggle.com/shivam316/handel-imbalance-creating-spectrogram-part-2
 
-Feature Extraction :- https://www.kaggle.com/shivam316/part-3-feature-extraction-modeling
+Feature Extraction & Modeling:- https://www.kaggle.com/shivam316/part-3-feature-extraction-modeling-95-acc
+
+**Minor work**
+
+MNIST via Covnets :- https://www.kaggle.com/shivam316/mnist-via-covnets-3-models-all-99-acc
+
+
+
 
 Day 1 -> Processed Audio files.
 
@@ -36,4 +45,11 @@ Day 7 -> Cheat day ;)
 Day 8 -> **Regularized** the model and got **97%** acc on **train** data and **95%** on **validation** data, i believe this model can achieve upto **97%-98%** acc
           on **validation** data, if i **remove** the **classes with less samples**, but i want the model to predict **as many diseases as possible**,
           Now i m confused to work MORE on this or not, idk!! :( 
-          **Do Upvote if u find this series of notebooks usefull and comment if any doubt or suggestion**
+          
+Day 9 :- As this spectacular 10 day journey ends tonight, thought of doing a final contribution, i already had a **97%** accuracy artificial
+          **neural network** for Digit Recognition Dataset or popularly known as **MNIST** dataset but wanted to get a better score than this and wanted to end this 
+          contest with a great feeling, so i made **Three Miniature Versions** of most popular winners of **ImageNet ILSVRC Challenge**, and tuned all 3 to produce
+          **99%+** acuuracy
+          
+          
+   **Upvote if you liked this series, comment if you Loved it**
