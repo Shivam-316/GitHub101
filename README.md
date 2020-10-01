@@ -18,10 +18,10 @@ Day 1 -> Processed Audio files.
 
 Day 2 ->  Resolved class imbalance and tried to extract mfcc feature but no luck , there is some error in preprocessing.
 
-Day 3 -> Studdied about features in an audio and worked out the error in **Day 1 Preprocessing** , so had to do it all over again
+Day 3 -> Studied about features in an audio and worked out the error in **Day 1 Preprocessing** , so had to do it all over again
           ( 3hrs of processing) , but in the end got the mfcc feature out, **rise and shine**
           
-Day 4 -> Today i got on with deviding the data into **train and validation**, then i started **feature extraction**.
+Day 4 -> Today i got on with dividing the data into **train and validation**, then i started **feature extraction**.
           First i thought that i will try to extract features **one-by-one** and see which one performs **best with 1D-covnet** but different
           features performed well on different audio files,
           So then i thought to use them all by **concatenation**, but the pitfall here was that covnets are designed to find **spatial patterns**
@@ -44,7 +44,7 @@ Day 7 -> Cheat day ;)
 
 Day 8 -> **Regularized** the model and got **97%** acc on **train** data and **95%** on **validation** data, i believe this model can achieve upto **97%-98%** acc
           on **validation** data, if i **remove** the **classes with less samples**, but i want the model to predict **as many diseases as possible**,
-          Now i m confused to work MORE on this or not, idk!! :( 
+          Now i am confused to work MORE on this or not, idk!! :( 
           
 Day 9 :- As this spectacular 10 day journey ends tonight, thought of doing a final contribution, i already had a **97%** accuracy artificial
           **neural network** for Digit Recognition Dataset or popularly known as **MNIST** dataset but wanted to get a better score than this and wanted to end this 
